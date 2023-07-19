@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String Case Conversion</title>
+    <script>
+        function convertToUppercase() {
+            var input = document.getElementById("inputString").value;
+            var output = input.toUpperCase();
+            document.getElementById("outputString").innerHTML = output;
+        }
+
+        function convertToLowercase() {
+            var input = document.getElementById("inputString").value;
+            var output = input.toLowerCase();
+            document.getElementById("outputString").innerHTML = output;
+        }
+    </script>
+</head>
+<body>
+    <h1>String Case Conversion</h1>
+    <label for="inputString">Enter a string:</label>
+    <input type="text" id="inputString">
+    <br><br>
+    <button onclick="convertToUppercase()">Convert to Uppercase</button>
+    <button onclick="convertToLowercase()">Convert to Lowercase</button>
+    <br><br>
+    <p id="outputString"></p>
+</body>
+</html>

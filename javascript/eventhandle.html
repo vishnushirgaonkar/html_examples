@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Show All Event Handlers</title>
+</head>
+<body>
+  <button id="myButton">Click Me</button>
+  <script>
+   
+    var button = document.getElementById("myButton");
+
+    
+    button.addEventListener("click", function() {
+      console.log("Button clicked!");
+    });
+
+    button.addEventListener("mouseover", function() {
+      console.log("Mouse over button!");
+    });
+
+    button.addEventListener("mouseout", function() {
+      console.log("Mouse out of button!");
+    });
+  </script>
+</body>
+</html>

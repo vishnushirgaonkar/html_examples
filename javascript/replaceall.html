@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Replace All Example</title>
+</head>
+<body>
+    <h1>Replace All Example</h1>
+
+    <p id="originalText">This is a sample text. It contains the word "sample" multiple times.</p>
+
+    <button onclick="replaceAll()">Replace All</button>
+
+    <script>
+        function replaceAll() {
+            var originalText = document.getElementById("originalText").innerHTML;
+            var replacedText = originalText.replaceAll("sample", "replacement");
+            document.getElementById("originalText").innerHTML = replacedText;
+        }
+    </script>
+</body>
+</html>

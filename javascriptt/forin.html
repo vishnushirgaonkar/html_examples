@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For in Loop Example</title>
+</head>
+<body>
+
+<h1>For in Loop Example</h1>
+
+<p id="output"></p>
+
+<script>
+  var person = {
+    name: "Vishnu",
+    age: 27,
+    profession: "Programmer"
+  };
+
+  var output = document.getElementById("output");
+
+  for (var key in person) {
+    output.innerHTML += key + ": " + person[key] + "<br>";
+  }
+</script>
+
+</body>
+</html>

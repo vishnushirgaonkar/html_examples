@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Else Statement Example</title>
+    <script>
+        function checkNumber() {
+            var number = parseInt(document.getElementById("numberInput").value);
+            
+            if (number > 0) {
+                document.getElementById("result").innerHTML = "The number is positive.";
+            } else {
+                document.getElementById("result").innerHTML = "The number is either zero or negative.";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Else Statement Example</h1>
+    <label for="numberInput">Enter a number:</label>
+    <input type="number" id="numberInput">
+    <button onclick="checkNumber()">Check</button>
+    <p id="result"></p>
+</body>
+</html>

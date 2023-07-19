@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accessing Array Elements</title>
+    <script>
+        // array
+        var fruits = ["Apple", "Banana", "Orange", "Mango", "Grapes"];
+
+        // Access the element 
+        var thirdFruit = fruits[2];
+
+        //  result
+        document.write("The third fruit is: " + thirdFruit);
+    </script>
+</head>
+<body>
+</body>
+</html>

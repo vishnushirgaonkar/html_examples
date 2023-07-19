@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display Current Date in UTC</title>
+  <script>
+    function displayCurrentDate() {
+      var currentDate = new Date();
+      var utcDate = currentDate.toUTCString();
+      document.getElementById("date").innerHTML = "Current Date (UTC): " + utcDate;
+    }
+  </script>
+</head>
+<body>
+  <h1>Display Current Date in UTC</h1>
+  <button onclick="displayCurrentDate()">Show Current Date (UTC)</button>
+  <p id="date"></p>
+</body>
+</html>

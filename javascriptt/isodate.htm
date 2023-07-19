@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display New Date using ISO Standard</title>
+    <script>
+        function displayNewDate() {
+            var currentDate = new Date();
+            var isoDate = currentDate.toISOString();
+            document.getElementById("date").innerHTML = isoDate;
+        }
+    </script>
+</head>
+<body>
+    <h1>Displaying New Date using ISO Standard</h1>
+    <button onclick="displayNewDate()">Show New Date</button>
+    <p id="date"></p>
+</body>
+</html>

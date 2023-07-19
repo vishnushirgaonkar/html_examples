@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sorting Array in Descending Order</title>
+    <script>
+        // Function to sort an array in descending order
+        function sortArrayDescending(arr) {
+            arr.sort(function(a, b) {
+                return b - a;
+            });
+            return arr;
+        }
+
+        // Example usage
+       
+    </script>
+</head>
+<body>
+    var numbers = [5, 2, 8, 1, 9];
+    var sortedNumbers = sortArrayDescending(numbers);
+    console.log(sortedNumbers);
+</body>
+</html>

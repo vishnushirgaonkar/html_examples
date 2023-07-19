@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Current Date</title>
+    <script>
+        // Get the current date
+        var currentDate = new Date();
+
+        // Set the date using various date set methods
+        currentDate.setFullYear(2022);
+        currentDate.setMonth(11); // Months are zero-based, so 11 represents December
+        currentDate.setDate(25);
+        currentDate.setHours(0);
+        currentDate.setMinutes(0);
+        currentDate.setSeconds(0);
+        currentDate.setMilliseconds(0);
+
+        // Convert the date to a string
+        var dateString = currentDate.toDateString();
+
+        // Display the date on the webpage
+        document.write("<h1>Current Date: " + dateString + "</h1>");
+    </script>
+</head>
+<body>
+</body>
+</html>
