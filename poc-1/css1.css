@@ -6,9 +6,11 @@ body {
 
 .container {
   max-width: 400px;
-  margin: 0 auto;
+  margin-top: 150px;
+  margin-left: 500px;
   padding: 40px;
-  background-color: #fff;
+  padding-right: 60px;
+  background-color: #bbe4ebfb;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -36,12 +38,12 @@ body {
 }
 
 .form-group button {
-  width: 100%;
+  width: 105%;
   padding: 10px;
   background-color: #0691f4;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 7px;
   cursor: pointer;
 }
 .form-group button[type="submit"]:hover {
